@@ -1,6 +1,8 @@
 # problem 1
 def RepaeteMyChar(char, n)
-    puts char*n
+  (1..n).each {
+    puts char
+  }
 end
 
 
